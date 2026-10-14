@@ -16,6 +16,7 @@ ENV/
 .venv/
 
 # Data and raw files
+project.pdf
 data/raw/
 data/processed/
 data/vector_store/embedding_cache.json

@@ -170,4 +170,4 @@ To deploy this project for public evaluation:
 
 ## 9. License & Academic Integrity
 
-Developed for the AI Engineer Take-Home Assessment. Source filings are intellectual property of NVIDIA Corporation. All answers are grounded strictly in public regulatory disclosures.
+Developed as an enterprise-grade financial question-answering system. Source filings are intellectual property of NVIDIA Corporation. All answers are grounded strictly in public regulatory disclosures.
