@@ -1,0 +1,147 @@
+{
+  "evaluation_timestamp": "2026-10-15 00:25:10",
+  "total_test_cases": 8,
+  "passed_cases": 8,
+  "failed_cases": 0,
+  "accuracy_rate_percent": 100.0,
+  "citation_presence_percent": 75.0,
+  "abstention_accuracy_percent": 100.0,
+  "test_results": [
+    {
+      "id": "q1_fy24_total_revenue",
+      "category": "Numerical & Financial",
+      "question": "What was NVIDIA's total revenue in fiscal year 2024?",
+      "latency_seconds": 2.92,
+      "top_similarity_score": 0.816749095916748,
+      "should_abstain": false,
+      "abstained": false,
+      "passed": true,
+      "has_citations": true,
+      "answer": "For fiscal year 2024, NVIDIA's total revenue was a record $60.9 billion, representing an increase of 126% [NVIDIA 2024 Annual Report (Form 10-K), Page 13].",
+      "retrieved_sources": [
+        "NVIDIA 2024 Annual Report (Form 10-K), Page 13",
+        "NVIDIA 2024 Annual Report (Form 10-K), Page 13",
+        "NVIDIA 2024 Annual Report (Form 10-K), Page 1"
+      ]
+    },
+    {
+      "id": "q2_fy24_datacenter_revenue",
+      "category": "Segment Revenue",
+      "question": "What was NVIDIA's Data Center segment revenue for fiscal year 2024?",
+      "latency_seconds": 2.65,
+      "top_similarity_score": 0.8194205164909363,
+      "should_abstain": false,
+      "abstained": false,
+      "passed": true,
+      "has_citations": true,
+      "answer": "For fiscal year 2024, NVIDIA's full-year Data Center revenue rose 217% to a record $47.5 billion [NVIDIA 2024 Annual Report, Page 13].",
+      "retrieved_sources": [
+        "NVIDIA 2024 Annual Report (Form 10-K), Page 13",
+        "NVIDIA 2024 Annual Report (Form 10-K), Page 13",
+        "NVIDIA 2026 Annual Report (Form 10-K), Page 14"
+      ]
+    },
+    {
+      "id": "q3_fy24_gross_margin",
+      "category": "Financial Ratios",
+      "question": "What was NVIDIA's GAAP gross margin percentage in fiscal year 2024 compared to fiscal year 2023?",
+      "latency_seconds": 3.6,
+      "top_similarity_score": 0.8319028615951538,
+      "should_abstain": false,
+      "abstained": true,
+      "passed": true,
+      "has_citations": true,
+      "answer": "I cannot answer this question based on the provided NVIDIA reports because there is insufficient evidence in the ingested documents regarding NVIDIA's GAAP gross margin percentage for fiscal year 2024. The provided excerpts only mention the Non-GAAP gross margin for fiscal year 2024 (73.8%) [NVIDIA 2024 Annual Report, Page 13] and the GAAP gross margin for fiscal year 2023 (56.9%) [NVIDIA 2023 Annual Report, Page 15], but do not provide the fiscal year 2024 GAAP gross margin figure.",
+      "retrieved_sources": [
+        "NVIDIA 2024 Annual Report (Form 10-K), Page 13",
+        "NVIDIA 2024 Annual Report (Form 10-K), Page 13",
+        "NVIDIA 2023 Annual Report (Form 10-K), Page 15"
+      ]
+    },
+    {
+      "id": "q4_1999_governance",
+      "category": "Historical Governance",
+      "question": "Who served as President and Chief Executive Officer according to NVIDIA's 1999 proxy statement?",
+      "latency_seconds": 3.1,
+      "top_similarity_score": 0.8645322322845459,
+      "should_abstain": false,
+      "abstained": false,
+      "passed": true,
+      "has_citations": true,
+      "answer": "According to NVIDIA's 1999 Proxy Statement, Jen-Hsun Huang served as the President and Chief Executive Officer [NVIDIA 1999 Proxy Statement (DEF 14A), Page 8].",
+      "retrieved_sources": [
+        "NVIDIA 1999 Proxy Statement (DEF 14A), Page 2",
+        "NVIDIA 1998 Proxy Statement (DEF 14A), Page 2",
+        "NVIDIA 1999 Proxy Statement (DEF 14A), Page 3"
+      ]
+    },
+    {
+      "id": "q5_fy20_mellanox",
+      "category": "Corporate Development",
+      "question": "What major acquisition did NVIDIA discuss or complete in its fiscal year 2020 annual report?",
+      "latency_seconds": 2.93,
+      "top_similarity_score": 0.819004476070404,
+      "should_abstain": false,
+      "abstained": false,
+      "passed": true,
+      "has_citations": true,
+      "answer": "In its fiscal year 2020 annual report, NVIDIA discussed the acquisition of Mellanox [NVIDIA 2020 Annual Report (Form 10-K), Page 8]. \n\nKey details regarding the acquisition discussed in the report include:\n* Mellanox is based in Israel and will serve as one of NVIDIA's most significant design centers [NVIDIA 2020 Annual Report (Form 10-K), Page 8].\n* NVIDIA received approval from all necessary regulatory agencies to proceed with the acquisition [NVIDIA 2020 Annual Report (Form 10-K), Page 8].\n* The acquisition was expected to close on or about April 27, 2020 [NVIDIA 2020 Annual Report (Form 10-K), Page 8].",
+      "retrieved_sources": [
+        "NVIDIA 2020 Annual Report (Form 10-K), Page 8",
+        "NVIDIA 2020 Annual Report (Form 10-K), Page 1",
+        "NVIDIA 2020 Annual Report (Form 10-K), Page 9"
+      ]
+    },
+    {
+      "id": "q6_fy26_blackwell",
+      "category": "Modern Architecture",
+      "question": "What architecture or GPU family does NVIDIA highlight in its 2026 annual report for generative AI and accelerated computing?",
+      "latency_seconds": 2.73,
+      "top_similarity_score": 0.8160030245780945,
+      "should_abstain": false,
+      "abstained": false,
+      "passed": true,
+      "has_citations": true,
+      "answer": "Based on the provided NVIDIA 2026 Annual Report (Form 10-K), NVIDIA highlights the **Blackwell**, **Blackwell Ultra**, **Vera Rubin**, **Vera Rubin Ultra**, and **Feynman** architectures/platforms in its roadmap for accelerated computing and AI [NVIDIA 2026 Annual Report (Form 10-K), Page 13]. Additionally, the company notes visibility into cumulative revenue specifically for **Blackwell** and **Rubin** from 2025 through 2027 [NVIDIA 2026 Annual Report (Form 10-K), Page 13].",
+      "retrieved_sources": [
+        "NVIDIA 2026 Annual Report (Form 10-K), Page 14",
+        "NVIDIA 2024 Annual Report (Form 10-K), Page 13",
+        "NVIDIA 2026 Annual Report (Form 10-K), Page 1"
+      ]
+    },
+    {
+      "id": "q7_abstain_unfounded_year",
+      "category": "Appropriate Abstention",
+      "question": "What was NVIDIA's total net income in fiscal year 1982?",
+      "latency_seconds": 2.75,
+      "top_similarity_score": 0.7677724957466125,
+      "should_abstain": true,
+      "abstained": true,
+      "passed": true,
+      "has_citations": false,
+      "answer": "I cannot answer this question based on the provided NVIDIA reports because there is insufficient evidence in the ingested documents.",
+      "retrieved_sources": [
+        "NVIDIA 2023 Annual Report (Form 10-K), Page 15",
+        "NVIDIA 2018 Annual Report (Form 10-K), Page 7",
+        "NVIDIA 1998 Proxy Statement (DEF 14A), Page 2"
+      ]
+    },
+    {
+      "id": "q8_abstain_competitor",
+      "category": "Appropriate Abstention",
+      "question": "What was Apple's total iPhone unit sales revenue in calendar year 2023?",
+      "latency_seconds": 2.4,
+      "top_similarity_score": 0.667262077331543,
+      "should_abstain": true,
+      "abstained": true,
+      "passed": true,
+      "has_citations": false,
+      "answer": "I cannot answer this question based on the provided NVIDIA reports because there is insufficient evidence in the ingested documents regarding Apple's total iPhone unit sales revenue.",
+      "retrieved_sources": [
+        "NVIDIA 2023 Annual Report (Form 10-K), Page 15",
+        "NVIDIA 2026 Annual Report (Form 10-K), Page 14",
+        "NVIDIA 2026 Annual Report (Form 10-K), Page 13"
+      ]
+    }
+  ]
+}

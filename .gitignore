@@ -1,0 +1,38 @@
+# Environment and credentials
+.env
+.env.local
+!.env.example
+secrets.toml
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Data and raw files
+data/raw/
+data/processed/
+data/vector_store/embedding_cache.json
+
+# Vector database storage & cache
+chroma_db/
+.chroma/
+
+# Testing & temp files
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+scratch/
+tmp/
+
+# OS specific
+.DS_Store
+Thumbs.db
+

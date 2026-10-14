@@ -1,0 +1,75 @@
+[
+  {
+    "id": "q1_fy24_total_revenue",
+    "category": "Numerical & Financial",
+    "question": "What was NVIDIA's total revenue in fiscal year 2024?",
+    "expected_keywords": ["60.9", "billion", "60,922"],
+    "expected_document": "NVIDIA 2024 Annual Report",
+    "should_abstain": false,
+    "description": "Tests numerical revenue accuracy and unit retention ($B vs $M)."
+  },
+  {
+    "id": "q2_fy24_datacenter_revenue",
+    "category": "Segment Revenue",
+    "question": "What was NVIDIA's Data Center segment revenue for fiscal year 2024?",
+    "expected_keywords": ["47.5", "47,525", "datacenter", "data center"],
+    "expected_document": "NVIDIA 2024 Annual Report",
+    "should_abstain": false,
+    "description": "Tests segment-specific financial metrics and accuracy."
+  },
+  {
+    "id": "q3_fy24_gross_margin",
+    "category": "Financial Ratios",
+    "question": "What was NVIDIA's GAAP gross margin percentage in fiscal year 2024 compared to fiscal year 2023?",
+    "expected_keywords": ["72.7%", "56.9%", "gross margin"],
+    "expected_document": "NVIDIA 2024 Annual Report",
+    "should_abstain": false,
+    "description": "Tests percentage retention and multi-period financial comparison."
+  },
+  {
+    "id": "q4_1999_governance",
+    "category": "Historical Governance",
+    "question": "Who served as President and Chief Executive Officer according to NVIDIA's 1999 proxy statement?",
+    "expected_keywords": ["Jen-Hsun Huang", "Huang"],
+    "expected_document": "NVIDIA 1999 Proxy Statement",
+    "should_abstain": false,
+    "description": "Tests information retrieval from earliest historical proxy filings."
+  },
+  {
+    "id": "q5_fy20_mellanox",
+    "category": "Corporate Development",
+    "question": "What major acquisition did NVIDIA discuss or complete in its fiscal year 2020 annual report?",
+    "expected_keywords": ["Mellanox"],
+    "expected_document": "NVIDIA 2020 Annual Report",
+    "should_abstain": false,
+    "description": "Tests strategic M&A retrieval from intermediate era filings."
+  },
+  {
+    "id": "q6_fy26_blackwell",
+    "category": "Modern Architecture",
+    "question": "What architecture or GPU family does NVIDIA highlight in its 2026 annual report for generative AI and accelerated computing?",
+    "expected_keywords": ["Blackwell", "Hopper"],
+    "expected_document": "NVIDIA 2026 Annual Report",
+    "should_abstain": false,
+    "description": "Tests retrieval from the most recent 2026 filing."
+  },
+  {
+    "id": "q7_abstain_unfounded_year",
+    "category": "Appropriate Abstention",
+    "question": "What was NVIDIA's total net income in fiscal year 1982?",
+    "expected_keywords": ["insufficient evidence", "cannot answer", "do not contain"],
+    "expected_document": "None",
+    "should_abstain": true,
+    "description": "Tests appropriate abstention for a year before NVIDIA's existence (founded 1993)."
+  },
+  {
+    "id": "q8_abstain_competitor",
+    "category": "Appropriate Abstention",
+    "question": "What was Apple's total iPhone unit sales revenue in calendar year 2023?",
+    "expected_keywords": ["insufficient evidence", "cannot answer", "do not contain"],
+    "expected_document": "None",
+    "should_abstain": true,
+    "description": "Tests appropriate abstention for competitor out-of-scope query."
+  }
+]
+
